@@ -8,10 +8,10 @@ import java.awt.event.ActionListener;
 public class Main {
 
     public static void main(String[] args) {
-        JButton btn=new JButton("Start");
-        JFrame frame=new JFrame("First");
-        JTextField tfield1=new JTextField("Here is your text");
-        JTextField tfield2=new JTextField("");
+        JButton btn = new JButton("Start");
+        JFrame frame = new JFrame("First");
+        JTextField tfield1 = new JTextField("Here is your text");
+        JTextField tfield2 = new JTextField("");
         JPanel panel = new JPanel();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -27,16 +27,16 @@ public class Main {
         btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String text=tfield1.getText();
-                String textUpperCase;
-                int counter=0;
-                for (char element : text.toCharArray())
-                {
-                    counter++;
-                }
-                //text=new Integer(counter).toString();
-                textUpperCase=text.substring(0,counter/2);
-                tfield2.setText(textUpperCase.toUpperCase()+text.substring(counter/2,counter));
+                String text = tfield1.getText();
+               // String textUpperCase;
+               // int counter = 0;
+              // for (char element : text.toCharArray())
+               // {
+               //     counter ++;
+               // }
+                // text = new Integer(counter).toString();
+               // textUpperCase = text.substring(0,counter/2);
+                tfield2.setText(text.substring(0,text.length()/2).toUpperCase() + text.substring(text.length() / 2,text.length()));
             }
         });
     }
