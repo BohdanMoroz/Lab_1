@@ -12,7 +12,28 @@ class Chair {
     private String coatingKind;
     private boolean back;
     private boolean coating;
-    private String legsNumber;
+    private int legsNumber;
+
+    public String toString(){
+      return
+              "Material : " +
+        this.getMaterial() +
+        "\n" +
+        "Seat Form : " +
+        this.getSeatForm() +
+        "\n" +
+        "Coating Kind : " +
+        this.getCoatingKind() +
+        "\n" +
+        "Back : " +
+        Boolean.toString(this.getBack()) +
+        "\n" +
+        "Coating : " +
+        Boolean.toString(this.getCoating()) +
+        "\n" +
+        "Legs Number : " +
+        Integer.toString(this.getLegsNumber());
+    };
 
     public void setMaterial(String material){
         this.material = material;
@@ -41,8 +62,8 @@ class Chair {
     public void setCoating(boolean coating) { this.coating = coating; }
     public boolean getCoating() { return  coating; }
 
-    public  void setLegsNumber(String legsNumber) { this.legsNumber = legsNumber; }
-    public String getLegsNumber() { return legsNumber; }
+    public  void setLegsNumber(int legsNumber) { this.legsNumber = legsNumber; }
+    public int getLegsNumber() { return legsNumber; }
 }
 
 public class Main {
@@ -123,22 +144,12 @@ public class Main {
         chair.setMaterial("Wood");
         chair.setSeatForm("Square");
         chair.setCoatingKind("None");
-        chair.setLegsNumber("4");
+        chair.setLegsNumber(4);
 
         ActionListener actionListenerMaterial = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                switch (comboBoxMaterial.getSelectedItem().toString()) {
-                    case "Wood" :
-                        chair.setMaterial("Wood");
-                        break;
-                    case "Metal" :
-                        chair.setMaterial("Metal");
-                        break;
-                    case "Plastic" :
-                        chair.setMaterial("Plastic");
-                        break;
-                }
+                chair.setMaterial(comboBoxMaterial.getSelectedItem().toString());
             }
         };
         comboBoxMaterial.addActionListener(actionListenerMaterial);
@@ -146,17 +157,7 @@ public class Main {
         ActionListener actionListenerSeatForm = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                switch (comboBoxSeatForm.getSelectedItem().toString()) {
-                    case "Square" :
-                        chair.setSeatForm("Square");
-                        break;
-                    case "Rectangle" :
-                        chair.setSeatForm("Rectangle");
-                        break;
-                    case "Circle" :
-                        chair.setSeatForm("Circle");
-                        break;
-                }
+                chair.setSeatForm(comboBoxSeatForm.getSelectedItem().toString());
             }
         };
         comboBoxSeatForm.addActionListener(actionListenerSeatForm);
@@ -164,17 +165,7 @@ public class Main {
         ActionListener actionListenerCoatingKind = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                switch (comboBoxCoatingKind.getSelectedItem().toString()) {
-                    case "Textile" :
-                        chair.setCoatingKind("Textile");
-                        break;
-                    case "Leather" :
-                        chair.setCoatingKind("Leather");
-                        break;
-                    case "None" :
-                        chair.setCoatingKind("None");
-                        break;
-                }
+                chair.setCoatingKind(comboBoxCoatingKind.getSelectedItem().toString());
             }
         };
         comboBoxCoatingKind.addActionListener(actionListenerCoatingKind);
@@ -211,7 +202,7 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e)
             {
-                    chair.setLegsNumber(textField.getText());
+                    chair.setLegsNumber(Integer.parseInt(textField.getText()));
             }
         });
         btn2.setEnabled(false);
@@ -219,11 +210,7 @@ public class Main {
         checkBoxBack.addItemListener(new ItemListener() {
             @Override
             public void itemStateChanged(ItemEvent e) {
-                if(e.getStateChange() == ItemEvent.SELECTED) {
-                    chair.setBack(true);
-                } else {
-                    chair.setBack(false);
-                };
+                chair.setBack(e.getStateChange() == ItemEvent.SELECTED);
             }
         });
 
@@ -245,25 +232,7 @@ public class Main {
         btn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                textArea.setText(null);
-                textArea.append("Material : ");
-                textArea.append(chair.getMaterial());
-                textArea.append("\n");
-                textArea.append("Seat Form : ");
-                textArea.append(chair.getSeatForm());
-                textArea.append("\n");
-                textArea.append("Coating Kind : ");
-                textArea.append(chair.getCoatingKind());
-                textArea.append("\n");
-                textArea.append("Back : ");
-                textArea.append(Boolean.toString(chair.getBack()));
-                textArea.append("\n");
-                textArea.append("Coating : ");
-                textArea.append(Boolean.toString(chair.getCoating()));
-                textArea.append("\n");
-                textArea.append("Legs Number : ");
-                textArea.append(chair.getLegsNumber());
-                textArea.append("\n");
+                textArea.setText(chair.toString());
             }
         });
     }
