@@ -4,14 +4,13 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
 public class QRCodeGenerator {
-    public static void maqin(String text) {
+    public static void codeGen(String text) {
         QRCodeWriter writer = new QRCodeWriter();
         int width = 256, height = 256;
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB); // create an empty image

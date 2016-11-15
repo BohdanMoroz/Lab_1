@@ -7,7 +7,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-
 import java.awt.Graphics;
 import java.awt.Image;
 import java.io.File;
@@ -89,25 +88,12 @@ public class FornitureItem extends JPanel{
         JPanel checkBoxPanel = new JPanel();
         JPanel textFieldPanel = new JPanel();
         JPanel imgPanel = new JPanel();
-
         JCheckBox checkBox1 = new JCheckBox(varName1());
         JCheckBox checkBox2 = new JCheckBox(varName2());
-
         JLabel labelExt = new JLabel(labelText());
-
         JComboBox comboBoxMaterial = new JComboBox(this.itemsMaterial);
         JComboBox comboBoxForm = new JComboBox(this.itemsForm);
-
         JComboBox comboBoxSubMaterial = new JComboBox(ik());
-
-
-//        FornitureItem game = new FornitureItem();
-//        game.setSize(256, 256);
-
-
-
-
-
 
         mainFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         mainFrame.setSize(500, 355);
@@ -124,7 +110,6 @@ public class FornitureItem extends JPanel{
         panel.add(textFieldPanel);
         panel.add(btn1);
         mainFrame.add(imgPanel, BorderLayout.CENTER);
-//        mainFrame.add(textArea, BorderLayout.CENTER);
 
         textFieldPanel.setLayout(new GridLayout(2,1));
         textFieldPanel.add(textField);

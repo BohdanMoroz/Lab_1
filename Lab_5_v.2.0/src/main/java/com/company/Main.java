@@ -10,21 +10,18 @@ public class Main {
     static FornitureItem fi;
     static boolean isFrame = false;
     public static void main(String[] args) {
-
-        String[] OK = {
+        String[] classString = {
                 "Chair",
                 "Table"
         };
-
         JFrame frame = new JFrame("Choose your class");
         JLabel labelMaterial = new JLabel("Material");
         JLabel labelForm = new JLabel("Form");
         JButton btn1 = new JButton("Show all parameters");
         JButton btn2 = new JButton("Set legs number");
-        JComboBox CB = new JComboBox(OK);
+        JComboBox comboBoxClass = new JComboBox(classString);
         JTextArea textArea = new JTextArea();
         JTextField textField = new JTextField();
-
         JPanel panel = new JPanel();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,20 +30,18 @@ public class Main {
 
         frame.add(panel, BorderLayout.NORTH);
         panel.setLayout(new GridLayout(1,1));
-        panel.add(CB);
+        panel.add(comboBoxClass);
 
-        ActionListener actionListenerCB = new ActionListener() {
+        ActionListener actionListenerComboBoxClass = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JFrame frame2;
                 textArea.setText("");
                 String varFrame;
-
                 if(isFrame == true){
                     fi.destructForm();
                 };
-
-                switch (CB.getSelectedItem().toString()) {
+                switch (comboBoxClass.getSelectedItem().toString()) {
                     case "Chair":
                         fi = new Chair();
                         varFrame = "Chair";
@@ -65,19 +60,17 @@ public class Main {
                         throw new IllegalStateException("Incorrect furniture type");
                         //break;
                 }
-
                 isFrame = true;
                 frame2 = new JFrame(varFrame);
                 fi.buildForm(frame2, labelMaterial, labelForm, btn1, btn2, textArea, textField);
             }
         };
-        CB.addActionListener(actionListenerCB);
+        comboBoxClass.addActionListener(actionListenerComboBoxClass);
 
         btn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 textArea.setText(fi.toString());
-                fi = new Table();
             }
         });
 
@@ -103,9 +96,7 @@ public class Main {
             }
 
             @Override
-            public void changedUpdate(DocumentEvent e) {
-
-            }
+            public void changedUpdate(DocumentEvent e) {}
         });
 
         btn2.addActionListener(new ActionListener() {

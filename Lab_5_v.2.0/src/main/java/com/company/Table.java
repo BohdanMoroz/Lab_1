@@ -53,8 +53,8 @@ public class Table extends FornitureItem {
                         "\n";
 
         str = str1 + str2;
-        QRCodeGenerator qrcg = new QRCodeGenerator();
-        qrcg.maqin(str);
+        QRCodeGenerator makeQR = new QRCodeGenerator();
+        makeQR.codeGen(str);
         loadImage();
         repaint();
 

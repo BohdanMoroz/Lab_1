@@ -49,9 +49,11 @@ public class Chair extends FornitureItem {
                         "Coating : " +
                         Boolean.toString(this.getChecker2()) +
                         "\n";
-        str = "1";
-        QRCodeGenerator qrcg = new QRCodeGenerator();
-        qrcg.maqin(str);
+        str = str1 + str2;
+        QRCodeGenerator makeQR = new QRCodeGenerator();
+        makeQR.codeGen(str);
+        loadImage();
+        repaint();
 
         return str1 + str2;
     };
