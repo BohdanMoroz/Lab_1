@@ -1,0 +1,43 @@
+
+:squid:S1166"%Either log or rethrow this exception.(ï­£Ä
+Bsquid:S1604"(Make this anonymous inner class a lambda(Æ¥Ùşÿÿÿÿÿ
+=squid:S1604"(Make this anonymous inner class a lambda(‡Ù‘
+…"squid:ClassVariableVisibilityCheck"TMake checker1 a static final constant or non-public and provide accessors if needed.( ¤­¤üÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(‡»©±
+psquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(”ÑˆK
+€"squid:ClassVariableVisibilityCheck"TMake checker2 a static final constant or non-public and provide accessors if needed.(‡õ‡Õ
+{squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "itemsKind".(û†»Ùüÿÿÿÿ
+Bsquid:S1604"(Make this anonymous inner class a lambda(ûï†÷úÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"QMake color a static final constant or non-public and provide accessors if needed.(æ®şôûÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Jsquid:S2209"5Change this instance-reference to a static reference.(Õûö§
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:S2440"/Remove this instantiation of "QRCodeGenerator".(Áæï±ùÿÿÿÿ
+=squid:S1604"(Make this anonymous inner class a lambda(şÚ™ä
+|"squid:ClassVariableVisibilityCheck"QMake image a static final constant or non-public and provide accessors if needed.(Î¢€3
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÆÉ§I
+psquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(”ÑˆK
+†"squid:ClassVariableVisibilityCheck"UMake imgLoaded a static final constant or non-public and provide accessors if needed.(š¬ã—ùÿÿÿÿ
+;squid:S1948"'Make "image" transient or serializable.(Î¢€3
+€"squid:ClassVariableVisibilityCheck"TMake material a static final constant or non-public and provide accessors if needed.(Û‡ı±
+psquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(”ÑˆK
+Csquid:S1125")Remove the literal "false" boolean value.(èôüáşÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck"UMake mainFrame a static final constant or non-public and provide accessors if needed.(œ¸Ğ¯ùÿÿÿÿ
+Bsquid:S1604"(Make this anonymous inner class a lambda(ØËîÊøÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(æı‚»ùÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"RMake lenght a static final constant or non-public and provide accessors if needed.(…™€Áıÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake option a static final constant or non-public and provide accessors if needed.(º‚˜Ê
+:squid:S1166"%Either log or rethrow this exception.(ï­£Ä
+Bsquid:S1604"(Make this anonymous inner class a lambda(³çŠÅøÿÿÿÿ
+Osquid:S1161":Add the "@Override" annotation above this method signature(Á»›ê
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òß¿•üÿÿÿÿ
+Osquid:S1161":Add the "@Override" annotation above this method signature(¶øÂÁ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(Î¢€3
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ

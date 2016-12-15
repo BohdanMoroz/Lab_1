@@ -1,0 +1,13 @@
+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+{squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "itemsKind".(û†»Ùüÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢Ş•é
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+qsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(¯‹ç
+psquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(œ’n
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+vsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(¾ü´¶şÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+bsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(íÃY

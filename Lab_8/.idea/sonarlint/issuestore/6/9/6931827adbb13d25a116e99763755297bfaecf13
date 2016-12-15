@@ -1,0 +1,12 @@
+
+qsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(¯‹ç
+dsquid:S1858"C"getOption" returns a string, there's no need to call "toString()".(¿ÛÉªúÿÿÿÿ8¹›ò²‹+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+isquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(íÃY8¹›ò²‹+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+psquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(œ’n
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+vsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pole".(¾ü´¶şÿÿÿÿ
+wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "items".(á¥ı’ıÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ

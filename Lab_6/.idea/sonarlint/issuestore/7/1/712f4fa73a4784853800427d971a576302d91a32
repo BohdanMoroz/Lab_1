@@ -1,0 +1,22 @@
+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+Zsquid:S1132"FMove the "" string literal on the left side of this string comparison.(ÃÔº
+„ squid:MethodCyclomaticComplexity"ZThe Cyclomatic Complexity of this method "main" is 15 which is greater than 10 authorized.(Çµí‘
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±¯€¤
+Xsquid:S2583"DChange this condition so that it does not always evaluate to "false"(ÃÔº
+=squid:S1604"(Make this anonymous inner class a lambda(¯¦Þ¥
+=squid:S1125"(Remove the literal "true" boolean value.(œœï
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ýåœ
+asquid:S1192"GDefine a constant instead of duplicating this literal "Pencil" 3 times.(ÿŸÚÁþÿÿÿÿ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(àªÅö
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(ÚÔ¹áúÿÿÿÿ
+Žsquid:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÃÔº
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+Žsquid:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÃÔº
+Xsquid:S2583"DChange this condition so that it does not always evaluate to "false"(ÃÔº
+Zsquid:S1132"FMove the "" string literal on the left side of this string comparison.(ÃÔº
+qsquid:S1188"\Reduce this anonymous class number of lines from 33 to at most 20, or make it a named class.(é²ŽÇ
+=squid:S1604"(Make this anonymous inner class a lambda(­âü‰
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(Ý»æØ
+qsquid:S1188"\Reduce this anonymous class number of lines from 24 to at most 20, or make it a named class.(™ù‰í
+=squid:S1604"(Make this anonymous inner class a lambda(é²ŽÇ

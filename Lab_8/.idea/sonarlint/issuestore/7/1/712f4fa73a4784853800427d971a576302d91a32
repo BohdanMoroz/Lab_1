@@ -1,0 +1,26 @@
+
+Vsquid:S2209"5Change this instance-reference to a static reference.(Á›úÄÿÿÿÿÿ8ÀÒ®æ‹+
+}squid:S1188"\Reduce this anonymous class number of lines from 29 to at most 20, or make it a named class.(ÄÌÅ§úÿÿÿÿ8Æø×â‹+
+Vsquid:S2209"5Change this instance-reference to a static reference.(ÅÆŸƒıÿÿÿÿ8§Ú¥ô‹+
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(­Å†Ò8ÿÖá‹+
+Vsquid:S2209"5Change this instance-reference to a static reference.(Åæå·úÿÿÿÿ8åÅãó‹+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢¢ş®8«êó‹+
+Dsquid:S1604"(Make this anonymous inner class a lambda(š²ê¼8Áæåæ‹+
+Dsquid:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8”®ãó‹+
+osquid:S3008"SRename this field "object_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ×„8‹¦÷Ü‹+
+Isquid:S1604"(Make this anonymous inner class a lambda(ÄÌÅ§úÿÿÿÿ8˜ …á‹+
+Fsquid:S1166"%Either log or rethrow this exception.(ğ³Ëûÿÿÿÿ8”®ãó‹+
+Qsquid:S2209"5Change this instance-reference to a static reference.(ˆ´°°8åÚğâ‹+
+osquid:S3008"SRename this field "object_0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì°Ô8‹¦÷Ü‹+
+fsquid:S2147"ECombine this catch with the one at line 127, which has the same body.(ğ³Ëûÿÿÿÿ8”®ãó‹+
+Asquid:S1166"%Either log or rethrow this exception.(ı£õÕ8”®ãó‹+
+=squid:S1604"(Make this anonymous inner class a lambda(•»œ
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·œ°Éüÿÿÿÿ8îÈóö‹+
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(­Å†Ò8ÿÖá‹+
+Fsquid:S2440"*Remove this instantiation of "PencilCase".(Óòûğ8ˆ‚éæ‹+
+xsquid:S1188"\Reduce this anonymous class number of lines from 23 to at most 20, or make it a named class.(•»œ8œÄåÜ‹+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(àªÅö8áÑÆö‹+
+Dsquid:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8”®ãó‹+
+Fsquid:S2440"*Remove this instantiation of "PencilCase".(Óòûğ8åÚğâ‹+
+Qsquid:S2209"5Change this instance-reference to a static reference.(ä£ùö8§Ú¥ô‹+
+Vsquid:S2209"5Change this instance-reference to a static reference.(¼Ş»Üıÿÿÿÿ8ÁÏ„ç‹+

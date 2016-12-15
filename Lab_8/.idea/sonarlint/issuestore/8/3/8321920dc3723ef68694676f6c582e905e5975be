@@ -1,0 +1,10 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8áÁÆó‹+
+Jsquid:S1444"/Make this "public static listclass" field final(Êø8Æşëâ‹+
+8squid:S2386"Make this member "protected".(Êø8Æşëâ‹+
+Asquid:S1166"%Either log or rethrow this exception.(¯áè8áÁÆó‹+
+`squid:S2147"DCombine this catch with the one at line 13, which has the same body.(Å¡ß8áÁÆó‹+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ˆŞÖï8ÃÃğâ‹+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8áÁÆó‹+
+Asquid:S1166"%Either log or rethrow this exception.(Å¡ß8áÁÆó‹+
+‡"squid:ClassVariableVisibilityCheck"UMake listclass a static final constant or non-public and provide accessors if needed.(Êø8ÉŒ´İ‹+

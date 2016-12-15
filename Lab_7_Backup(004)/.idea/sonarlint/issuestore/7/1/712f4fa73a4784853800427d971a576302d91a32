@@ -1,0 +1,16 @@
+
+osquid:S3008"SRename this field "object_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ×„8ÖšÔÔ‹+
+Isquid:S1604"(Make this anonymous inner class a lambda(Ãúó’ÿÿÿÿÿ8ß¾Ô²‹+
+Isquid:S1604"(Make this anonymous inner class a lambda(ª‡Ê•üÿÿÿÿ8ß¾Ô²‹+
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ŒÉÊİşÿÿÿÿ
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ŒÉÊİşÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(îß½™úÿÿÿÿ
+}squid:S1188"\Reduce this anonymous class number of lines from 59 to at most 20, or make it a named class.(ª‡Ê•üÿÿÿÿ8ß¾Ô²‹+
+osquid:S3008"SRename this field "object_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş·îÖ8åºÕÔ‹+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(àªÅö8îÌà±‹+
+qsquid:S1188"\Reduce this anonymous class number of lines from 42 to at most 20, or make it a named class.(´ğÎ
+tsquid:S3008"SRename this field "object_0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İúğµúÿÿÿÿ8îå×Ô‹+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±¯€¤8ß¾Ô²‹+
+Jsquid:S1905")Remove this unnecessary cast to "String".(Äœıøıÿÿÿÿ8ß¾Ô²‹+
+=squid:S1604"(Make this anonymous inner class a lambda(´ğÎ
